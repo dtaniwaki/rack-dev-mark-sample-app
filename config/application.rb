@@ -11,7 +11,7 @@ module RackDevMarkSampleApp
     # Enable rack-dev-mark
     config.rack_dev_mark.enable = !Rails.env.production?
     # Customize themes if you want to do so
-    config.rack_dev_mark.theme = [:title, Rack::DevMark::Theme::GithubForkRibbon.new(position: 'right', fixed: true, color: 'green')]
+    # config.rack_dev_mark.theme = [:title, :github_fork_ribbon]
     # Customize inserted place of the middleware if necessary. 
     # You can use either insert_before or insert_after
     # config.rack_dev_mark.insert_after = Rack::Deflater
