@@ -37,6 +37,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'twitter-bootstrap-rails'
+
 gem 'rack-dev-mark'
 #gem 'rack-dev-mark', git: 'https://github.com/dtaniwaki/rack-dev-mark.git'
 #gem 'rack-dev-mark', path: '../rack-dev-mark'
