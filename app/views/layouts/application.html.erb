@@ -37,8 +37,10 @@
     <%= javascript_include_tag "application" %>
 
     <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      @media all and (min-width: 1200px) {
+        body {
+          padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        }
       }
     </style>
   </head>
