@@ -14,7 +14,7 @@ module RackDevMarkSampleApp
     # config.rack_dev_mark.theme = [:title, :github_fork_ribbon]
     # Customize inserted place of the middleware if necessary. 
     # You can use either insert_before or insert_after
-    config.rack_dev_mark.insert_after Rack::Deflater
+    # config.rack_dev_mark.insert_after Rack::Deflater
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -28,7 +28,7 @@ module RackDevMarkSampleApp
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    #config.middleware.insert_before ActionDispatch::ShowExceptions, Rack::Deflater
-    config.middleware.use Rack::Deflater
+    config.middleware.insert_before ActionDispatch::ShowExceptions, Rack::Deflater
+    #config.middleware.use Rack::Deflater
   end
 end
