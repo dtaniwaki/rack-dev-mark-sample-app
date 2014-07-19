@@ -39,8 +39,8 @@ gem 'spring',        group: :development
 
 gem 'twitter-bootstrap-rails'
 
-#gem 'rack-dev-mark'
-gem 'rack-dev-mark', git: 'https://github.com/dtaniwaki/rack-dev-mark.git', branch: 'support-i18n'
+gem 'rack-dev-mark'
+#gem 'rack-dev-mark', git: 'https://github.com/dtaniwaki/rack-dev-mark.git', branch: 'support-i18n'
 #gem 'rack-dev-mark', path: '../rack-dev-mark'
 
 gem 'rails_config'
