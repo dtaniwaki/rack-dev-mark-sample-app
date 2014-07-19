@@ -6,11 +6,11 @@
   <h2>What is rack-dev-mark</h2>
 
   <p>
-    <%= link_to 'rack-dev-mark', 'https://github.com/dtaniwaki/rack-dev-mark' %> is a rack-based gem which provides various development marks on your development websites.
+    <%= link_to 'rack-dev-mark', Settings.urls.repo.rack_dev_mark %> is a rack-based gem which provides various development marks on your development websites.
   </p>
 
   <p>
-  You can see the dev mark on the <%= link_to 'staging', 'http://staging-rack-dev-mark.herokuapp.com/' %> and <%= link_to 'development', 'http://development-rack-dev-mark.herokuapp.com/' %> within the environments while the <%= link_to 'production', 'http://rack-dev-mark.herokuapp.com/' %> site does not have any dev mark. The websites of these environments are deployed from the <%= link_to 'same repository', 'https://github.com/dtaniwaki/rack-dev-mark-sample-app' %>.
+  You can see the dev mark on the <%= link_to 'staging', Settings.urls.site.staging %> and <%= link_to 'development', Settings.urls.site.development %> within the environments while the <%= link_to 'production', Settings.urls.site.production %> site does not have any dev mark. The websites of these environments are deployed from the <%= link_to 'same repository', Settings.urls.repo.rack_dev_mark_sample_app %>.
   </p>
 </div>
 

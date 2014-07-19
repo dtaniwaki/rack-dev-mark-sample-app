@@ -65,12 +65,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">RackDevMarkSampleApp</a>
+          <a class="brand" href="<%= Settings.urls.site.production %>">RackDevMarkSampleApp</a>
           <div class="container nav-collapse">
             <ul class="nav">
-              <li><%= link_to 'Production', 'http://rack-dev-mark.herokuapp.com/' %></li>
-              <li><%= link_to 'Staging', 'http://staging-rack-dev-mark.herokuapp.com/' %></li>
-              <li><%= link_to 'Development', 'http://development-rack-dev-mark.herokuapp.com/' %></li>
+              <li><%= link_to '日本語', '?locale=ja' %></li>
+              <li><%= link_to 'English', '?locale=en' %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -87,9 +86,9 @@
             <div class="well sidebar-nav">
               <h3>Environments</h3>
               <ul class="nav nav-list" style="height: 1200px;">
-                <li><%= link_to 'Production', 'http://rack-dev-mark.herokuapp.com/' %></li>
-                <li><%= link_to 'Staging', 'http://staging-rack-dev-mark.herokuapp.com/' %></li>
-                <li><%= link_to 'Development', 'http://development-rack-dev-mark.herokuapp.com/' %></li>
+                <li><%= link_to 'Production', Settings.urls.site.production %></li>
+                <li><%= link_to 'Staging', Settings.urls.site.staging %></li>
+                <li><%= link_to 'Development', Settings.urls.site.development %></li>
               </ul>
             </div><!--/.well -->
           </div><!--/span-->

@@ -1,0 +1,24 @@
+<div class="page-header">
+  <h1>rack-dev-mark Sample App</h1>
+</div>
+
+<div style="margin-bottom: 40px;">
+  <h2>rack-dev-markとは</h2>
+
+  <p>
+  <%= link_to 'rack-dev-mark', Settings.urls.repo.rack_dev_mark %> はRackベースのgemで環境毎に様々なマークを出すことができます。
+  </p>
+
+  <p>
+  <%= link_to 'ステージング', Settings.urls.site.staging %>と<%= link_to '開発環境', Settings.urls.site.development %>ではマークが出ていますが、<%= link_to '本番環境', Settings.urls.site.production %>ではマークが出ていないことが確認できます。また、このWebサイトは<%= link_to '同じリポジトリ', Settings.urls.repo.rack_dev_mark_sample_app %>からデプロイされています。
+  </p>
+</div>
+
+<div style="margin-bottom: 40px;">
+  <h2>rack-dev-markを使って開発しているサイト</h2>
+
+  <div style="margin-bottom: 20px;">
+    <h3>planBCD</h3>
+    <%= image_tag 'planbcd.png', width: 1280 %>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+en:
+  rack_dev_mark:
+    development: Development
+    staging: Staging
+    production: Production

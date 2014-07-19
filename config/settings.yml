@@ -1,0 +1,9 @@
+cookie_domain: 'rack-dev-mark.dtaniwaki.com'
+urls:
+  site:
+    production: 'http://rack-dev-mark.dtaniwaki.com'
+    staging: 'http://staging.rack-dev-mark.dtaniwaki.com'
+    development: 'http://development.rack-dev-mark.dtaniwaki.com'
+  repo:
+    rack_dev_mark: 'https://github.com/dtaniwaki/rack-dev-mark'
+    rack_dev_mark_sample_app: 'https://github.com/dtaniwaki/rack-dev-mark-sample-app'

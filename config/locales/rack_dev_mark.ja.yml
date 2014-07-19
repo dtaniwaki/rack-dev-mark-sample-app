@@ -1,0 +1,5 @@
+ja:
+  rack_dev_mark:
+    development: 開発環境
+    staging: ステージング
+    production: 本番環境
