@@ -86,9 +86,9 @@
             <div class="well sidebar-nav">
               <h3>Environments</h3>
               <ul class="nav nav-list" style="height: 1200px;">
-                <li><%= link_to 'Production', Settings.urls.site.production %></li>
-                <li><%= link_to 'Staging', Settings.urls.site.staging %></li>
-                <li><%= link_to 'Development', Settings.urls.site.development %></li>
+                <li><%= link_to I18n.t('views.env.production'), Settings.urls.site.production %></li>
+                <li><%= link_to I18n.t('views.env.staging'), Settings.urls.site.staging %></li>
+                <li><%= link_to I18n.t('views.env.development'), Settings.urls.site.development %></li>
               </ul>
             </div><!--/.well -->
           </div><!--/span-->

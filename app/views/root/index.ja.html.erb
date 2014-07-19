@@ -10,7 +10,7 @@
   </p>
 
   <p>
-  <%= link_to 'ステージング', Settings.urls.site.staging %>と<%= link_to '開発環境', Settings.urls.site.development %>ではマークが出ていますが、<%= link_to '本番環境', Settings.urls.site.production %>ではマークが出ていないことが確認できます。また、このWebサイトは<%= link_to '同じリポジトリ', Settings.urls.repo.rack_dev_mark_sample_app %>からデプロイされています。
+  <%= link_to I18n.t('views.env.staging'), Settings.urls.site.staging %>と<%= link_to I18n.t('views.env.development'), Settings.urls.site.development %>ではマークが出ていますが、<%= link_to I18n.t('views.env.production'), Settings.urls.site.production %>ではマークが出ていないことが確認できます。また、このWebサイトは<%= link_to '同じリポジトリ', Settings.urls.repo.rack_dev_mark_sample_app %>からデプロイされています。
   </p>
 </div>
 

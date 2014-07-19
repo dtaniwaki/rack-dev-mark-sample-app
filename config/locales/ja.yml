@@ -1,0 +1,6 @@
+ja:
+  views:
+    env:
+      production: '本番環境'
+      staging: 'ステージング'
+      development: '開発環境'

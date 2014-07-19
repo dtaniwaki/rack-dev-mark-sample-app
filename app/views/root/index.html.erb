@@ -10,7 +10,7 @@
   </p>
 
   <p>
-  You can see the dev mark on the <%= link_to 'staging', Settings.urls.site.staging %> and <%= link_to 'development', Settings.urls.site.development %> within the environments while the <%= link_to 'production', Settings.urls.site.production %> site does not have any dev mark. The websites of these environments are deployed from the <%= link_to 'same repository', Settings.urls.repo.rack_dev_mark_sample_app %>.
+  You can see the dev mark on the <%= link_to I18n.t('views.env.staging'), Settings.urls.site.staging %> and <%= link_to I18n.t('views.env.development'), Settings.urls.site.development %> within the environments while the <%= link_to I18n.t('views.env.production'), Settings.urls.site.production %> site does not have any dev mark. The websites of these environments are deployed from the <%= link_to 'same repository', Settings.urls.repo.rack_dev_mark_sample_app %>.
   </p>
 </div>
 
