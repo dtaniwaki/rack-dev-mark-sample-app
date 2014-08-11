@@ -7,6 +7,8 @@ A sample app of [rack-dev-mark](https://github.com/dtaniwaki/rack-dev-mark)
 
 You can see the running example [here](http://rack-dev-mark.herokuapp.com/)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 
 [codeship-image]:   https://www.codeship.io/projects/77f4d980-ecd7-0131-a298-624d1c6d48fa/status
 [codeship-link]:    https://www.codeship.io/projects/26638
