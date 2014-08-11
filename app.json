@@ -1,7 +1,7 @@
 {
   "name": "rack-dev-mark Sample App",
   "description": "A sample app of rack-dev-mark",
-  "repository": "https://github.com/dtaniwaki/rack-dev-mark",
+  "repository": "https://github.com/dtaniwaki/rack-dev-mark-sample-app",
   "logo": "https://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["rack-dev-mark", "rack", "rails"],
   "env": {
