@@ -4,4 +4,3 @@ ja:
       production: '本番環境'
       staging: 'ステージング'
       development: '開発環境'
-      heroku_button: 'ヘロクボタン'

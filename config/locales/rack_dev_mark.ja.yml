@@ -3,3 +3,4 @@ ja:
     development: 開発環境
     staging: ステージング
     production: 本番環境
+    heroku_button: ヘロクボタン

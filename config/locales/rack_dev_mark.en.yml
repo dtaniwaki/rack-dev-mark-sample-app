@@ -3,3 +3,4 @@ en:
     development: Development
     staging: Staging
     production: Production
+    heroku_button: Heroku Button
