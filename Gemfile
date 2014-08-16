@@ -44,3 +44,4 @@ gem 'rack-dev-mark'
 #gem 'rack-dev-mark', path: '../rack-dev-mark'
 
 gem 'rails_config'
+gem 'rails_12factor', group: :production
