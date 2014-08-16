@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "no_rack_dev_mark", to: "root#no_rack_dev_mark"
   root 'root#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
