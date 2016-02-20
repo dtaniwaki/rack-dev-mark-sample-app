@@ -3,7 +3,12 @@
   "description": "A sample app of rack-dev-mark",
   "repository": "https://github.com/dtaniwaki/rack-dev-mark-sample-app",
   "logo": "https://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["rack-dev-mark", "rack", "rails"],
+  "keywords": [
+    "rack-dev-mark",
+    "rack",
+    "rails"
+  ],
+  "image": "heroku/ruby",
   "env": {
     "RACK_DEV_MARK_ENV": "heroku_button"
   }
