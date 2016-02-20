@@ -11,6 +11,13 @@ module RackDevMarkSampleApp
   class Application < Rails::Application
     # Enable rack-dev-mark
     config.rack_dev_mark.enable = !Rails.env.production?
+    case ENV['RACK_DEV_MARK_ENV']
+    when 'staging'
+      config.rack_dev_mark.theme = [:title, Rack::DevMark::Theme::GithubForkRibbon.new(position: 'right', fixed: true, color: 'green')]
+    else
+      config.rack_dev_mark.theme = [:title, Rack::DevMark::Theme::GithubForkRibbon.new(position: 'right', fixed: true, color: 'red')]
+    end
+
     #
     # Customize the env string (default Rails.env)
     # config.rack_dev_mark.env = 'foo'
