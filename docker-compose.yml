@@ -1,6 +1,6 @@
 web:
   build: .
-  command: bundle exec rails server -p 8080
+  command: 'bash -c ''bundle exec puma -C config/puma.rb'''
   working_dir: /app/user
   environment:
     PORT: 8080
