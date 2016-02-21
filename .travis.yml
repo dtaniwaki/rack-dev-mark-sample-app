@@ -1,4 +1,9 @@
 language: ruby
+sudo: required
 rvm:
   - 2.3.0
-script: bundle exec rake test
+cache: bundler
+before_install: gem install bundler
+script: bundle exec rspec
+services:
+  - docker
