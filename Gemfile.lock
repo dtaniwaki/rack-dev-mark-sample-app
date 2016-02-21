@@ -45,7 +45,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.1)
+    diff-lcs (1.2.5)
+    docker-api (1.26.0)
+      excon (>= 0.38.0)
+      json
     erubis (2.7.0)
+    excon (0.45.4)
     execjs (2.2.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -67,6 +72,10 @@ GEM
     mini_portile2 (2.0.0)
     minitest (5.8.4)
     multi_json (1.11.2)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.0.2)
+    net-telnet (0.1.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     puma (2.16.0)
@@ -110,6 +119,22 @@ GEM
     rdoc (4.1.1)
       json (~> 1.4)
     ref (2.0.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.3)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-its (1.2.0)
+      rspec-core (>= 3.0.0)
+      rspec-expectations (>= 3.0.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
     sass (3.4.1)
     sass-rails (5.0.0.beta1)
       railties (>= 4.0.0, < 5.0)
@@ -119,6 +144,17 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    serverspec (2.29.2)
+      multi_json
+      rspec (~> 3.0)
+      rspec-its
+      specinfra (~> 2.48)
+    sfl (2.2)
+    specinfra (2.51.1)
+      net-scp
+      net-ssh (>= 2.7, < 3.1)
+      net-telnet
+      sfl
     spring (1.1.3)
     sprockets (2.12.4)
       hike (~> 1.2)
@@ -150,6 +186,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  docker-api
   jbuilder (~> 2.0)
   jquery-rails
   puma
@@ -157,8 +194,10 @@ DEPENDENCIES
   rails (= 4.2.5.1)
   rails_12factor
   rails_config
+  rspec
   sass-rails (~> 5.0.0.beta1)
   sdoc (~> 0.4.0)
+  serverspec
   spring
   therubyracer
   turbolinks
